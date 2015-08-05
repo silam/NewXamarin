@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9F823E178F13F800E5385C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F823D178F13F800E5385C /* UIKit.framework */; };
+		FF9F8240178F13F800E5385C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F823F178F13F800E5385C /* Foundation.framework */; };
+		FF9F8242178F13F800E5385C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9F8241178F13F800E5385C /* CoreGraphics.framework */; };
+		FF9F8248178F13F800E5385C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9F8246178F13F800E5385C /* InfoPlist.strings */; };
+		FF9F824A178F13F800E5385C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9F8249178F13F800E5385C /* main.m */; };
+		FF9F824E178F13F800E5385C /* FlukeDbTest11AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9F824D178F13F800E5385C /* FlukeDbTest11AppDelegate.m */; };
+		FF9F8250178F13F800E5385C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9F824F178F13F800E5385C /* Default.png */; };
+		FF9F8252178F13F800E5385C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9F8251178F13F800E5385C /* Default@2x.png */; };
+		FF9F8254178F13F800E5385C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9F8253178F13F800E5385C /* Default-568h@2x.png */; };
+		FF9F8257178F13F800E5385C /* FlukeDbTest11MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9F8256178F13F800E5385C /* FlukeDbTest11MasterViewController.m */; };
+		FF9F825A178F13F800E5385C /* FlukeDbTest11DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9F8259178F13F800E5385C /* FlukeDbTest11DetailViewController.m */; };
+		FF9F825D178F13F800E5385C /* FlukeDbTest11MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9F825B178F13F800E5385C /* FlukeDbTest11MasterViewController.xib */; };
+		FF9F8260178F13F800E5385C /* FlukeDbTest11DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9F825E178F13F800E5385C /* FlukeDbTest11DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF9F823A178F13F800E5385C /* Test11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9F823D178F13F800E5385C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF9F823F178F13F800E5385C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF9F8241178F13F800E5385C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF9F8245178F13F800E5385C /* Test11-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test11-Info.plist"; sourceTree = "<group>"; };
+		FF9F8247178F13F800E5385C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9F8249178F13F800E5385C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9F824B178F13F800E5385C /* Test11-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test11-Prefix.pch"; sourceTree = "<group>"; };
+		FF9F824C178F13F800E5385C /* FlukeDbTest11AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlukeDbTest11AppDelegate.h; sourceTree = "<group>"; };
+		FF9F824D178F13F800E5385C /* FlukeDbTest11AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlukeDbTest11AppDelegate.m; sourceTree = "<group>"; };
+		FF9F824F178F13F800E5385C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF9F8251178F13F800E5385C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF9F8253178F13F800E5385C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF9F8255178F13F800E5385C /* FlukeDbTest11MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlukeDbTest11MasterViewController.h; sourceTree = "<group>"; };
+		FF9F8256178F13F800E5385C /* FlukeDbTest11MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlukeDbTest11MasterViewController.m; sourceTree = "<group>"; };
+		FF9F8258178F13F800E5385C /* FlukeDbTest11DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlukeDbTest11DetailViewController.h; sourceTree = "<group>"; };
+		FF9F8259178F13F800E5385C /* FlukeDbTest11DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlukeDbTest11DetailViewController.m; sourceTree = "<group>"; };
+		FF9F825C178F13F800E5385C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlukeDbTest11MasterViewController.xib; sourceTree = "<group>"; };
+		FF9F825F178F13F800E5385C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlukeDbTest11DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9F8237178F13F800E5385C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9F823E178F13F800E5385C /* UIKit.framework in Frameworks */,
+				FF9F8240178F13F800E5385C /* Foundation.framework in Frameworks */,
+				FF9F8242178F13F800E5385C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9F8231178F13F800E5385C = {
+			isa = PBXGroup;
+			children = (
+				FF9F8243178F13F800E5385C /* Test11 */,
+				FF9F823C178F13F800E5385C /* Frameworks */,
+				FF9F823B178F13F800E5385C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9F823B178F13F800E5385C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F823A178F13F800E5385C /* Test11.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9F823C178F13F800E5385C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F823D178F13F800E5385C /* UIKit.framework */,
+				FF9F823F178F13F800E5385C /* Foundation.framework */,
+				FF9F8241178F13F800E5385C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9F8243178F13F800E5385C /* Test11 */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F824C178F13F800E5385C /* FlukeDbTest11AppDelegate.h */,
+				FF9F824D178F13F800E5385C /* FlukeDbTest11AppDelegate.m */,
+				FF9F8255178F13F800E5385C /* FlukeDbTest11MasterViewController.h */,
+				FF9F8256178F13F800E5385C /* FlukeDbTest11MasterViewController.m */,
+				FF9F8258178F13F800E5385C /* FlukeDbTest11DetailViewController.h */,
+				FF9F8259178F13F800E5385C /* FlukeDbTest11DetailViewController.m */,
+				FF9F825B178F13F800E5385C /* FlukeDbTest11MasterViewController.xib */,
+				FF9F825E178F13F800E5385C /* FlukeDbTest11DetailViewController.xib */,
+				FF9F8244178F13F800E5385C /* Supporting Files */,
+			);
+			path = Test11;
+			sourceTree = "<group>";
+		};
+		FF9F8244178F13F800E5385C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9F8245178F13F800E5385C /* Test11-Info.plist */,
+				FF9F8246178F13F800E5385C /* InfoPlist.strings */,
+				FF9F8249178F13F800E5385C /* main.m */,
+				FF9F824B178F13F800E5385C /* Test11-Prefix.pch */,
+				FF9F824F178F13F800E5385C /* Default.png */,
+				FF9F8251178F13F800E5385C /* Default@2x.png */,
+				FF9F8253178F13F800E5385C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9F8239178F13F800E5385C /* Test11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9F8263178F13F800E5385C /* Build configuration list for PBXNativeTarget "Test11" */;
+			buildPhases = (
+				FF9F8236178F13F800E5385C /* Sources */,
+				FF9F8237178F13F800E5385C /* Frameworks */,
+				FF9F8238178F13F800E5385C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test11;
+			productName = Test11;
+			productReference = FF9F823A178F13F800E5385C /* Test11.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9F8232178F13F800E5385C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FlukeDbTest11;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Si Lam";
+			};
+			buildConfigurationList = FF9F8235178F13F800E5385C /* Build configuration list for PBXProject "Test11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF9F8231178F13F800E5385C;
+			productRefGroup = FF9F823B178F13F800E5385C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9F8239178F13F800E5385C /* Test11 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9F8238178F13F800E5385C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9F8248178F13F800E5385C /* InfoPlist.strings in Resources */,
+				FF9F8250178F13F800E5385C /* Default.png in Resources */,
+				FF9F8252178F13F800E5385C /* Default@2x.png in Resources */,
+				FF9F8254178F13F800E5385C /* Default-568h@2x.png in Resources */,
+				FF9F825D178F13F800E5385C /* FlukeDbTest11MasterViewController.xib in Resources */,
+				FF9F8260178F13F800E5385C /* FlukeDbTest11DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9F8236178F13F800E5385C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9F824A178F13F800E5385C /* main.m in Sources */,
+				FF9F824E178F13F800E5385C /* FlukeDbTest11AppDelegate.m in Sources */,
+				FF9F8257178F13F800E5385C /* FlukeDbTest11MasterViewController.m in Sources */,
+				FF9F825A178F13F800E5385C /* FlukeDbTest11DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF9F8246178F13F800E5385C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9F8247178F13F800E5385C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF9F825B178F13F800E5385C /* FlukeDbTest11MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9F825C178F13F800E5385C /* en */,
+			);
+			name = FlukeDbTest11MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		FF9F825E178F13F800E5385C /* FlukeDbTest11DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9F825F178F13F800E5385C /* en */,
+			);
+			name = FlukeDbTest11DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9F8261178F13F800E5385C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9F8262178F13F800E5385C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9F8264178F13F800E5385C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test11/Test11-Prefix.pch";
+				INFOPLIST_FILE = "Test11/Test11-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF9F8265178F13F800E5385C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test11/Test11-Prefix.pch";
+				INFOPLIST_FILE = "Test11/Test11-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9F8235178F13F800E5385C /* Build configuration list for PBXProject "Test11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9F8261178F13F800E5385C /* Debug */,
+				FF9F8262178F13F800E5385C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9F8263178F13F800E5385C /* Build configuration list for PBXNativeTarget "Test11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9F8264178F13F800E5385C /* Debug */,
+				FF9F8265178F13F800E5385C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9F8232178F13F800E5385C /* Project object */;
+}

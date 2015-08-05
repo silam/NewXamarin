@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOpenGL", "TestOpenGL\TestOpenGL.csproj", "{6218D5B1-CD6B-442A-8767-ABED3227682F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Release|iPhone.Build.0 = Release|iPhone
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6218D5B1-CD6B-442A-8767-ABED3227682F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestOpenGL\TestOpenGL.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlukeDBMonoApp", "FlukeDBMonoApp\FlukeDBMonoApp.csproj", "{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Debug|iPhone.Build.0 = Debug|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Release|iPhone.ActiveCfg = Release|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Release|iPhone.Build.0 = Release|iPhone
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{68FC3AA2-67DB-4E01-A7C1-9DF79E6D94BE}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FlukeDBMonoApp\FlukeDBMonoApp.csproj
+	EndGlobalSection
+EndGlobal

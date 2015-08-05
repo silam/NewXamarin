@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cude3DDemo", "Cude3DDemo\Cude3DDemo.csproj", "{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Release|iPhone.Build.0 = Release|iPhone
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{14EEB0A9-1727-4FA2-B2A3-A910C404F6EF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Cude3DDemo\Cude3DDemo.csproj
+	EndGlobalSection
+EndGlobal

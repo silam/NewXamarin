@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF72FBB715AF7703002BB7BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72FBB615AF7703002BB7BA /* UIKit.framework */; };
+		FF72FBB915AF7703002BB7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72FBB815AF7703002BB7BA /* Foundation.framework */; };
+		FF72FBBB15AF7703002BB7BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72FBBA15AF7703002BB7BA /* CoreGraphics.framework */; };
+		FF72FBC115AF7703002BB7BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF72FBBF15AF7703002BB7BA /* InfoPlist.strings */; };
+		FF72FBC315AF7703002BB7BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF72FBC215AF7703002BB7BA /* main.m */; };
+		FF72FBC715AF7703002BB7BA /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF72FBC615AF7703002BB7BA /* BNAppDelegate.m */; };
+		FF72FBCA15AF7703002BB7BA /* BNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF72FBC915AF7703002BB7BA /* BNViewController.m */; };
+		FF72FBCD15AF7703002BB7BA /* BNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF72FBCB15AF7703002BB7BA /* BNViewController.xib */; };
+		FF72FBD515AF7759002BB7BA /* BNName.m in Sources */ = {isa = PBXBuildFile; fileRef = FF72FBD415AF7759002BB7BA /* BNName.m */; };
+		FFDFA6D115B0862A008A852F /* BNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDFA6CF15B0862A008A852F /* BNDetailViewController.m */; };
+		FFDFA6D215B0862A008A852F /* BNDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFDFA6D015B0862A008A852F /* BNDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF72FBB215AF7703002BB7BA /* BN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF72FBB615AF7703002BB7BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF72FBB815AF7703002BB7BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF72FBBA15AF7703002BB7BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF72FBBE15AF7703002BB7BA /* BN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BN-Info.plist"; sourceTree = "<group>"; };
+		FF72FBC015AF7703002BB7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF72FBC215AF7703002BB7BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF72FBC415AF7703002BB7BA /* BN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BN-Prefix.pch"; sourceTree = "<group>"; };
+		FF72FBC515AF7703002BB7BA /* BNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		FF72FBC615AF7703002BB7BA /* BNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		FF72FBC815AF7703002BB7BA /* BNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNViewController.h; sourceTree = "<group>"; };
+		FF72FBC915AF7703002BB7BA /* BNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNViewController.m; sourceTree = "<group>"; };
+		FF72FBCC15AF7703002BB7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BNViewController.xib; sourceTree = "<group>"; };
+		FF72FBD315AF7759002BB7BA /* BNName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNName.h; sourceTree = "<group>"; };
+		FF72FBD415AF7759002BB7BA /* BNName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNName.m; sourceTree = "<group>"; };
+		FFDFA6CE15B0862A008A852F /* BNDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDetailViewController.h; sourceTree = "<group>"; };
+		FFDFA6CF15B0862A008A852F /* BNDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDetailViewController.m; sourceTree = "<group>"; };
+		FFDFA6D015B0862A008A852F /* BNDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF72FBAF15AF7703002BB7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72FBB715AF7703002BB7BA /* UIKit.framework in Frameworks */,
+				FF72FBB915AF7703002BB7BA /* Foundation.framework in Frameworks */,
+				FF72FBBB15AF7703002BB7BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF72FBA715AF7703002BB7BA = {
+			isa = PBXGroup;
+			children = (
+				FFDFA6CE15B0862A008A852F /* BNDetailViewController.h */,
+				FFDFA6CF15B0862A008A852F /* BNDetailViewController.m */,
+				FFDFA6D015B0862A008A852F /* BNDetailViewController.xib */,
+				FF72FBD315AF7759002BB7BA /* BNName.h */,
+				FF72FBD415AF7759002BB7BA /* BNName.m */,
+				FF72FBBC15AF7703002BB7BA /* BN */,
+				FF72FBB515AF7703002BB7BA /* Frameworks */,
+				FF72FBB315AF7703002BB7BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF72FBB315AF7703002BB7BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FBB215AF7703002BB7BA /* BN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF72FBB515AF7703002BB7BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FBB615AF7703002BB7BA /* UIKit.framework */,
+				FF72FBB815AF7703002BB7BA /* Foundation.framework */,
+				FF72FBBA15AF7703002BB7BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF72FBBC15AF7703002BB7BA /* BN */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FBC515AF7703002BB7BA /* BNAppDelegate.h */,
+				FF72FBC615AF7703002BB7BA /* BNAppDelegate.m */,
+				FF72FBC815AF7703002BB7BA /* BNViewController.h */,
+				FF72FBC915AF7703002BB7BA /* BNViewController.m */,
+				FF72FBCB15AF7703002BB7BA /* BNViewController.xib */,
+				FF72FBBD15AF7703002BB7BA /* Supporting Files */,
+			);
+			path = BN;
+			sourceTree = "<group>";
+		};
+		FF72FBBD15AF7703002BB7BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF72FBBE15AF7703002BB7BA /* BN-Info.plist */,
+				FF72FBBF15AF7703002BB7BA /* InfoPlist.strings */,
+				FF72FBC215AF7703002BB7BA /* main.m */,
+				FF72FBC415AF7703002BB7BA /* BN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF72FBB115AF7703002BB7BA /* BN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF72FBD015AF7703002BB7BA /* Build configuration list for PBXNativeTarget "BN" */;
+			buildPhases = (
+				FF72FBAE15AF7703002BB7BA /* Sources */,
+				FF72FBAF15AF7703002BB7BA /* Frameworks */,
+				FF72FBB015AF7703002BB7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BN;
+			productName = BN;
+			productReference = FF72FBB215AF7703002BB7BA /* BN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF72FBA915AF7703002BB7BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BN;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Fluke Thermography";
+			};
+			buildConfigurationList = FF72FBAC15AF7703002BB7BA /* Build configuration list for PBXProject "BN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF72FBA715AF7703002BB7BA;
+			productRefGroup = FF72FBB315AF7703002BB7BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF72FBB115AF7703002BB7BA /* BN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF72FBB015AF7703002BB7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72FBC115AF7703002BB7BA /* InfoPlist.strings in Resources */,
+				FF72FBCD15AF7703002BB7BA /* BNViewController.xib in Resources */,
+				FFDFA6D215B0862A008A852F /* BNDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF72FBAE15AF7703002BB7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72FBC315AF7703002BB7BA /* main.m in Sources */,
+				FF72FBC715AF7703002BB7BA /* BNAppDelegate.m in Sources */,
+				FF72FBCA15AF7703002BB7BA /* BNViewController.m in Sources */,
+				FF72FBD515AF7759002BB7BA /* BNName.m in Sources */,
+				FFDFA6D115B0862A008A852F /* BNDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF72FBBF15AF7703002BB7BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF72FBC015AF7703002BB7BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF72FBCB15AF7703002BB7BA /* BNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF72FBCC15AF7703002BB7BA /* en */,
+			);
+			name = BNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF72FBCE15AF7703002BB7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF72FBCF15AF7703002BB7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF72FBD115AF7703002BB7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BN/BN-Prefix.pch";
+				INFOPLIST_FILE = "BN/BN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF72FBD215AF7703002BB7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BN/BN-Prefix.pch";
+				INFOPLIST_FILE = "BN/BN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF72FBAC15AF7703002BB7BA /* Build configuration list for PBXProject "BN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF72FBCE15AF7703002BB7BA /* Debug */,
+				FF72FBCF15AF7703002BB7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF72FBD015AF7703002BB7BA /* Build configuration list for PBXNativeTarget "BN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF72FBD115AF7703002BB7BA /* Debug */,
+				FF72FBD215AF7703002BB7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF72FBA915AF7703002BB7BA /* Project object */;
+}

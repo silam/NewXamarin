@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlukeDBIPad/FirstViewController.cs">
+    <Files>
+      <File FileName="FlukeDBIPad/AppDelegate.cs" Line="28" Column="4" />
+      <File FileName="FlukeDBIPad/FirstViewController.designer.cs" Line="15" Column="3" />
+      <File FileName="FlukeDBIPad/FirstViewController.cs" Line="33" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

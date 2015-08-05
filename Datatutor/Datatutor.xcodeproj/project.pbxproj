@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB397BE15A0BCF6005BEEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB397BD15A0BCF6005BEEC1 /* UIKit.framework */; };
+		FFB397C015A0BCF6005BEEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB397BF15A0BCF6005BEEC1 /* Foundation.framework */; };
+		FFB397C215A0BCF6005BEEC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB397C115A0BCF6005BEEC1 /* CoreGraphics.framework */; };
+		FFB397C815A0BCF6005BEEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFB397C615A0BCF6005BEEC1 /* InfoPlist.strings */; };
+		FFB397CA15A0BCF6005BEEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB397C915A0BCF6005BEEC1 /* main.m */; };
+		FFB397CE15A0BCF6005BEEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB397CD15A0BCF6005BEEC1 /* AppDelegate.m */; };
+		FFB397D715A0BE79005BEEC1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB397D515A0BE79005BEEC1 /* FirstViewController.m */; };
+		FFB397D815A0BE79005BEEC1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB397D615A0BE79005BEEC1 /* FirstViewController.xib */; };
+		FFB397DC15A0BE91005BEEC1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB397DA15A0BE91005BEEC1 /* SecondViewController.m */; };
+		FFB397DD15A0BE91005BEEC1 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB397DB15A0BE91005BEEC1 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFB397B915A0BCF6005BEEC1 /* Datatutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Datatutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB397BD15A0BCF6005BEEC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFB397BF15A0BCF6005BEEC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFB397C115A0BCF6005BEEC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFB397C515A0BCF6005BEEC1 /* Datatutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Datatutor-Info.plist"; sourceTree = "<group>"; };
+		FFB397C715A0BCF6005BEEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFB397C915A0BCF6005BEEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB397CB15A0BCF6005BEEC1 /* Datatutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Datatutor-Prefix.pch"; sourceTree = "<group>"; };
+		FFB397CC15A0BCF6005BEEC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFB397CD15A0BCF6005BEEC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFB397D415A0BE79005BEEC1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FFB397D515A0BE79005BEEC1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FFB397D615A0BE79005BEEC1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FFB397D915A0BE91005BEEC1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FFB397DA15A0BE91005BEEC1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FFB397DB15A0BE91005BEEC1 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB397B615A0BCF6005BEEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB397BE15A0BCF6005BEEC1 /* UIKit.framework in Frameworks */,
+				FFB397C015A0BCF6005BEEC1 /* Foundation.framework in Frameworks */,
+				FFB397C215A0BCF6005BEEC1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB397AE15A0BCF6005BEEC1 = {
+			isa = PBXGroup;
+			children = (
+				FFB397C315A0BCF6005BEEC1 /* Datatutor */,
+				FFB397BC15A0BCF6005BEEC1 /* Frameworks */,
+				FFB397BA15A0BCF6005BEEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB397BA15A0BCF6005BEEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB397B915A0BCF6005BEEC1 /* Datatutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB397BC15A0BCF6005BEEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB397BD15A0BCF6005BEEC1 /* UIKit.framework */,
+				FFB397BF15A0BCF6005BEEC1 /* Foundation.framework */,
+				FFB397C115A0BCF6005BEEC1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB397C315A0BCF6005BEEC1 /* Datatutor */ = {
+			isa = PBXGroup;
+			children = (
+				FFB397CC15A0BCF6005BEEC1 /* AppDelegate.h */,
+				FFB397CD15A0BCF6005BEEC1 /* AppDelegate.m */,
+				FFB397C415A0BCF6005BEEC1 /* Supporting Files */,
+				FFB397D415A0BE79005BEEC1 /* FirstViewController.h */,
+				FFB397D515A0BE79005BEEC1 /* FirstViewController.m */,
+				FFB397D615A0BE79005BEEC1 /* FirstViewController.xib */,
+				FFB397D915A0BE91005BEEC1 /* SecondViewController.h */,
+				FFB397DA15A0BE91005BEEC1 /* SecondViewController.m */,
+				FFB397DB15A0BE91005BEEC1 /* SecondViewController.xib */,
+			);
+			path = Datatutor;
+			sourceTree = "<group>";
+		};
+		FFB397C415A0BCF6005BEEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB397C515A0BCF6005BEEC1 /* Datatutor-Info.plist */,
+				FFB397C615A0BCF6005BEEC1 /* InfoPlist.strings */,
+				FFB397C915A0BCF6005BEEC1 /* main.m */,
+				FFB397CB15A0BCF6005BEEC1 /* Datatutor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB397B815A0BCF6005BEEC1 /* Datatutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB397D115A0BCF6005BEEC1 /* Build configuration list for PBXNativeTarget "Datatutor" */;
+			buildPhases = (
+				FFB397B515A0BCF6005BEEC1 /* Sources */,
+				FFB397B615A0BCF6005BEEC1 /* Frameworks */,
+				FFB397B715A0BCF6005BEEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Datatutor;
+			productName = Datatutor;
+			productReference = FFB397B915A0BCF6005BEEC1 /* Datatutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB397B015A0BCF6005BEEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Fluke Thermography";
+			};
+			buildConfigurationList = FFB397B315A0BCF6005BEEC1 /* Build configuration list for PBXProject "Datatutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFB397AE15A0BCF6005BEEC1;
+			productRefGroup = FFB397BA15A0BCF6005BEEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB397B815A0BCF6005BEEC1 /* Datatutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB397B715A0BCF6005BEEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB397C815A0BCF6005BEEC1 /* InfoPlist.strings in Resources */,
+				FFB397D815A0BE79005BEEC1 /* FirstViewController.xib in Resources */,
+				FFB397DD15A0BE91005BEEC1 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB397B515A0BCF6005BEEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB397CA15A0BCF6005BEEC1 /* main.m in Sources */,
+				FFB397CE15A0BCF6005BEEC1 /* AppDelegate.m in Sources */,
+				FFB397D715A0BE79005BEEC1 /* FirstViewController.m in Sources */,
+				FFB397DC15A0BE91005BEEC1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFB397C615A0BCF6005BEEC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB397C715A0BCF6005BEEC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB397CF15A0BCF6005BEEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFB397D015A0BCF6005BEEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB397D215A0BCF6005BEEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Datatutor/Datatutor-Prefix.pch";
+				INFOPLIST_FILE = "Datatutor/Datatutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFB397D315A0BCF6005BEEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Datatutor/Datatutor-Prefix.pch";
+				INFOPLIST_FILE = "Datatutor/Datatutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB397B315A0BCF6005BEEC1 /* Build configuration list for PBXProject "Datatutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB397CF15A0BCF6005BEEC1 /* Debug */,
+				FFB397D015A0BCF6005BEEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB397D115A0BCF6005BEEC1 /* Build configuration list for PBXNativeTarget "Datatutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB397D215A0BCF6005BEEC1 /* Debug */,
+				FFB397D315A0BCF6005BEEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB397B015A0BCF6005BEEC1 /* Project object */;
+}

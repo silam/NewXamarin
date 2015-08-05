@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4_64.7.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld_IPhone/Main.cs">
+    <Files>
+      <File FileName="HelloWorld_IPhone/AppDelegate.cs" Line="18" Column="5" />
+      <File FileName="HelloWorld_IPhone/Main.cs" Line="9" Column="26" />
+      <File FileName="HelloWorld_IPhone/HelloWorld_IPhoneViewController.cs" Line="29" Column="35" />
+      <File FileName="HelloWorld_IPhone/HelloWorld_IPhoneViewController.designer.cs" Line="29" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

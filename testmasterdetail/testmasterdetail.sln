@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testmasterdetail", "testmasterdetail\testmasterdetail.csproj", "{A46C8088-2423-4CDF-A0F3-FA360818804E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Release|iPhone.Build.0 = Release|iPhone
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A46C8088-2423-4CDF-A0F3-FA360818804E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = testmasterdetail\testmasterdetail.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF84F11B156565E00092D507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF84F11A156565E00092D507 /* UIKit.framework */; };
+		FF84F11D156565E00092D507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF84F11C156565E00092D507 /* Foundation.framework */; };
+		FF84F11F156565E00092D507 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF84F11E156565E00092D507 /* CoreGraphics.framework */; };
+		FF84F125156565E00092D507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF84F123156565E00092D507 /* InfoPlist.strings */; };
+		FF84F127156565E00092D507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84F126156565E00092D507 /* main.m */; };
+		FF84F12B156565E00092D507 /* EarthHellowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84F12A156565E00092D507 /* EarthHellowAppDelegate.m */; };
+		FF84F12E156565E00092D507 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF84F12C156565E00092D507 /* MainStoryboard.storyboard */; };
+		FF84F131156565E00092D507 /* EarthHellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF84F130156565E00092D507 /* EarthHellowViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF84F116156565E00092D507 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF84F11A156565E00092D507 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF84F11C156565E00092D507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF84F11E156565E00092D507 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF84F122156565E00092D507 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		FF84F124156565E00092D507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF84F126156565E00092D507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF84F128156565E00092D507 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		FF84F129156565E00092D507 /* EarthHellowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthHellowAppDelegate.h; sourceTree = "<group>"; };
+		FF84F12A156565E00092D507 /* EarthHellowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthHellowAppDelegate.m; sourceTree = "<group>"; };
+		FF84F12D156565E00092D507 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF84F12F156565E00092D507 /* EarthHellowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthHellowViewController.h; sourceTree = "<group>"; };
+		FF84F130156565E00092D507 /* EarthHellowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthHellowViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF84F113156565E00092D507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF84F11B156565E00092D507 /* UIKit.framework in Frameworks */,
+				FF84F11D156565E00092D507 /* Foundation.framework in Frameworks */,
+				FF84F11F156565E00092D507 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF84F10B156565E00092D507 = {
+			isa = PBXGroup;
+			children = (
+				FF84F120156565E00092D507 /* HelloWorld */,
+				FF84F119156565E00092D507 /* Frameworks */,
+				FF84F117156565E00092D507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF84F117156565E00092D507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF84F116156565E00092D507 /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF84F119156565E00092D507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF84F11A156565E00092D507 /* UIKit.framework */,
+				FF84F11C156565E00092D507 /* Foundation.framework */,
+				FF84F11E156565E00092D507 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF84F120156565E00092D507 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				FF84F129156565E00092D507 /* EarthHellowAppDelegate.h */,
+				FF84F12A156565E00092D507 /* EarthHellowAppDelegate.m */,
+				FF84F12C156565E00092D507 /* MainStoryboard.storyboard */,
+				FF84F12F156565E00092D507 /* EarthHellowViewController.h */,
+				FF84F130156565E00092D507 /* EarthHellowViewController.m */,
+				FF84F121156565E00092D507 /* Supporting Files */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		FF84F121156565E00092D507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF84F122156565E00092D507 /* HelloWorld-Info.plist */,
+				FF84F123156565E00092D507 /* InfoPlist.strings */,
+				FF84F126156565E00092D507 /* main.m */,
+				FF84F128156565E00092D507 /* HelloWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF84F115156565E00092D507 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF84F134156565E00092D507 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				FF84F112156565E00092D507 /* Sources */,
+				FF84F113156565E00092D507 /* Frameworks */,
+				FF84F114156565E00092D507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = FF84F116156565E00092D507 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF84F10D156565E00092D507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EarthHellow;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Fluke Thermography";
+			};
+			buildConfigurationList = FF84F110156565E00092D507 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF84F10B156565E00092D507;
+			productRefGroup = FF84F117156565E00092D507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF84F115156565E00092D507 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF84F114156565E00092D507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF84F125156565E00092D507 /* InfoPlist.strings in Resources */,
+				FF84F12E156565E00092D507 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF84F112156565E00092D507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF84F127156565E00092D507 /* main.m in Sources */,
+				FF84F12B156565E00092D507 /* EarthHellowAppDelegate.m in Sources */,
+				FF84F131156565E00092D507 /* EarthHellowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF84F123156565E00092D507 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF84F124156565E00092D507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF84F12C156565E00092D507 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF84F12D156565E00092D507 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF84F132156565E00092D507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF84F133156565E00092D507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF84F135156565E00092D507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF84F136156565E00092D507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF84F110156565E00092D507 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF84F132156565E00092D507 /* Debug */,
+				FF84F133156565E00092D507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF84F134156565E00092D507 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF84F135156565E00092D507 /* Debug */,
+				FF84F136156565E00092D507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF84F10D156565E00092D507 /* Project object */;
+}
