@@ -20,17 +20,29 @@ namespace HelloWorld1
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton Close { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UIView label { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UILabel labelcount { get; set; }
 
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		SecondController SecondController { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (button != null) {
 				button.Dispose ();
 				button = null;
+			}
+			if (Close != null) {
+				Close.Dispose ();
+				Close = null;
 			}
 			if (label != null) {
 				label.Dispose ();
@@ -39,6 +51,10 @@ namespace HelloWorld1
 			if (labelcount != null) {
 				labelcount.Dispose ();
 				labelcount = null;
+			}
+			if (SecondController != null) {
+				SecondController.Dispose ();
+				SecondController = null;
 			}
 		}
 	}
