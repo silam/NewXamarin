@@ -26,10 +26,6 @@ namespace HelloWorld1
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UILabel labelcount { get; set; }
 
-		[Action ("UIButton4_TouchUpInside:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void UIButton4_TouchUpInside (UIButton sender);
-
 		void ReleaseDesignerOutlets ()
 		{
 			if (button != null) {
