@@ -4,13 +4,24 @@ using UIKit;
 // git clone https://github.com/silam/NewXamarin.git
 
 // git status
-// git add index.html
+// git add index.html or 
+// git add -A
+
 // git commit -m "add html"
+// git commit -a
 
 // git push
 
 // git pull
 
+// git branch
+// you are master
+
+
+// git branch feature1
+// you are now copy of master
+
+// git checkout feature1
 
 namespace HelloWorld1
 {
