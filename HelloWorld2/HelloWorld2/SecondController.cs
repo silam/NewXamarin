@@ -3,9 +3,9 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace HelloWorld1
+namespace HelloWorld2
 {
-	partial class SecondController : UIViewController
+	partial class SecondController : UIView
 	{
 		public SecondController (IntPtr handle) : base (handle)
 		{
