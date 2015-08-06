@@ -1,0 +1,13 @@
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/bin/iPhoneSimulator/Debug/HelloWorld2.exe.mdb
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/bin/iPhoneSimulator/Debug/HelloWorld2.exe
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/HelloWorld2.exe
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/obj/iPhoneSimulator/Debug/HelloWorld2.exe.mdb
+/Users/silam/Projects/NewXamarin/HelloWorld2/HelloWorld2/bin/iPhoneSimulator/Debug/Calabash.dll
