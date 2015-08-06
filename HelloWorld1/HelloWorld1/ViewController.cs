@@ -14,6 +14,10 @@ namespace HelloWorld1
 		{
 			base.ViewDidLoad ();
 			// Perform any additional setup after loading the view, typically from a nib.
+			int count = 0;
+
+			button.TouchUpInside +=	(sender, e) => this.labelcount.Text   = string.Format ("Count: {0}", ++count);
+
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -21,6 +25,8 @@ namespace HelloWorld1
 			base.DidReceiveMemoryWarning ();
 			// Release any cached data, images, etc that aren't in use.
 		}
+
+
 	}
 }
 
