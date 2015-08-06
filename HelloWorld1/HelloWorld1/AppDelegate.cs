@@ -1,6 +1,7 @@
 ﻿using Foundation;
 using UIKit;
 
+// https://www.youtube.com/watch?v=0fKg7e37bQE
 // git clone https://github.com/silam/NewXamarin.git
 
 // git status
@@ -22,6 +23,19 @@ using UIKit;
 // you are now copy of master
 
 // git checkout feature1
+
+
+
+// git push --set-upstream origin master
+// git brach master
+// git pull
+
+// git checkout feature1
+// git merge master
+// then git add -A
+// git push --set-upstream orgin feature1
+
+
 
 namespace HelloWorld1
 {

@@ -5,7 +5,7 @@ using UIKit;
 
 namespace HelloWorld1
 {
-	partial class SecondController : UIView
+	partial class SecondController : UIViewController
 	{
 		public SecondController (IntPtr handle) : base (handle)
 		{
