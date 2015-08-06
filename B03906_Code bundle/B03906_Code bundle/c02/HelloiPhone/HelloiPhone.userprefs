@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="HelloiPhone/HelloiPhone.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.1" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloiPhone/SecondController.cs">
     <Files>
       <File FileName="HelloiPhone/SecondController.cs" Line="1" Column="1" />
       <File FileName="HelloiPhone/SecondController.designer.cs" Line="1" Column="1" />
