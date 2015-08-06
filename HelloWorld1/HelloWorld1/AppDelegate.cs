@@ -26,7 +26,7 @@ using UIKit;
 
 
 
-
+// git push --set-upstream origin master
 // git brach master
 // git pull
 
